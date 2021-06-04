@@ -1,0 +1,44 @@
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 2px solid;
+    transition: 0.6px;
+    margin-top: 10px;
+    color: white;
+}
+ul li a:hover{
+    background: white;
+    color: black;
+}
+body{
+    background-color: rgb(21, 17, 248);
+}
+img{
+    width: 30%;
+    height: 10%;
+}
+header{
+    
+    list-style-type: none;
+    margin: 25px;
+    float: left;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+
+

@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif ;
+}
+header{
+    background-image: url('IMG/cantik.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display:inline-block ;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px  20px;
+    border: 2px solid;
+    transition: 0.6px;
+    margin-top: 10px;
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+}
+ul li.active a{
+    background-color:white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%; -60%);
+    
+}
+.title h3{
+    font-family: sans-serif;
+    color: white;
+    font-size: 50px;
+
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%;-60%);
+}
+.btn1{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6 case ;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn2{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6 case ;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn1:hover{
+    background: #fff;
+    color:#000;
+}
+.btn2:hover{
+    background: #fff;
+    color:#000;
+}
+p{
+    color: rgb(14, 12, 12);
+    background: white;
+}

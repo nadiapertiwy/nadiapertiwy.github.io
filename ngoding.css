@@ -1,0 +1,10 @@
+body{
+    background-image: url('IMG/pantai.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    color: rgb(7, 5, 5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

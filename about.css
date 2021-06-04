@@ -1,0 +1,54 @@
+
+
+body{
+    background-image: url('IMG/latar.jpg');
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+table{
+   
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+    border: solid gray;
+    padding: 10px;
+}
+nav{
+    display: block;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    
+    text-decoration: none;
+    color: plum;
+    padding: 5px 20px;
+    border: 2px solid;
+    transition: 0.6px;
+    margin-top: 10px;
+}
+img.tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    display: block;
+}
+ul li a:hover{
+    background: plum;
+    color: black;
+}
+hr{
+    border: none;
+    height: 1px;
+    color:#333;
+    background-color:#333;
+}
+p{
+    font-style: inherit;
+}
